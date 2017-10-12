@@ -7,6 +7,7 @@ def show_menu():
     return option
 
 
+
 def game_loop():
     while True:
         option = show_menu()
