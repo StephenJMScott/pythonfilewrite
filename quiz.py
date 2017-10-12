@@ -16,6 +16,17 @@
 # print (lines)
 
 
-f = open ("newfile.txt", "a")
-f.write("Hello")
+# f = open ("newfile.txt", "a")
+# f.write("Hello\nWorld\n")
+# f.close()
+
+# f = open("newfile.txt", "a")
+# lines = ["Hello", "World", "Welcome", "To", "File IO"]
+# f.writelines(lines)
+# f.close()
+
+f = open('newfile.txt', 'a')
+lines = ['Hello', 'World', 'Welcome', 'To', 'File IO']
+text = '\n'.join(lines)
+f.write(text)
 f.close()
