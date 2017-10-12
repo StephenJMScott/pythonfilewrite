@@ -1,0 +1,10 @@
+Where is Dublin?
+Ireland
+Where is London?
+England
+Where is Paris?
+France
+Where is Madrid?
+Spain
+Where is Berlin?
+Germany
